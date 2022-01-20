@@ -1,0 +1,22 @@
+
+/*======================================================
+                Responsive Design
+========================================================*/
+
+@media screen and (min-width:200px) and (max-width:500px){
+    .card{padding: 0px;}
+}
+
+@media screen and (min-width:200px) and (max-width:425px){
+    .btn-last{width: 152px;}
+    .btn{margin:5px 6px;}
+}
+@media screen and (min-width:200px) and (max-width:399px){
+    .btn{width:67px; margin:5px 1px;}
+    .btn-last{width: 135px;}
+
+}
+@media screen and (min-width:200px) and (max-width:347px){
+    .btn{width: 40px; font-size: 14px;}
+}
+

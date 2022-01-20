@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--shortcut icon-->
+    <link rel="shortcut icon" href="/src/assets/favicon.jpg">
+
+    <title>STANDARD CALCULATOR</title>
+
+    <!--All CSS-->
+    <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="card m-auto text-center">
+                        <div class="card-header">
+                            <h1 class="text-uppercase">Standard Calculator</h1>
+                        </div>
+                        <div class="card-body">
+                            <form action="index.php" name="forms">
+                                <div class="form-group cal-head">
+                                    <input type="text" id="display" name="display" class="form-control" maxlength="20">
+                                </div>
+                                <div class="cal-body">
+                                    <div class="form-group">
+                                        <!--1st Row of the calculator-->
+                                        <input type="button" id="clear" class="btn" value ="C"onclick="calculator(this.value)">
+                                        <input type="button" id="dot" class="btn" value ="."   onclick="calculator(this.value)" >
+                                        <input type="button" id="del" class="btn" value ="DEL" onclick="calculator(this.value)" >
+                                        <input type="button" id="divide" class="btn btn-op" value ="/" onclick="calculator(this.value)">
+                                    </div>
+                                    <div class="form-group">
+                                        <!--2nd Row of the calculator-->
+                                        <input type="button" id="seven" class="btn" value ="7" onclick ="calculator(this.value)">
+                                        <input type="button" id="eight" class="btn" value ="8" onclick ="calculator(this.value)">
+                                        <input type="button" id="nine" class="btn" value ="9"onclick ="calculator(this.value)">
+                                        <input type="button" id="multi" class="btn btn-op" value ="*" onclick ="calculator(this.value)">
+                                    </div>
+                                    <div class="form-group">
+                                        <!--3rd Row of the calculator-->
+                                        <input type="button" id="four" class="btn" value ="4" onclick ="calculator(this.value)">
+                                        <input type="button" id="five" class="btn" value ="5" onclick ="calculator(this.value)">
+                                        <input type="button" id="six" class="btn" value ="6" onclick ="calculator(this.value)">
+                                        <input type="button" id="minus" class="btn btn-op" value ="-" onclick ="calculator(this.value)">
+                                    </div>
+                                    <div class="form-group">
+                                        <!--4th Row of the calculator-->
+                                        <input type="button" id="one" class="btn" value ="1"  onclick="calculator(this.value)">
+                                        <input type="button" id="two" class="btn" value ="2"  onclick="calculator(this.value)">
+                                        <input type="button" id="three" class="btn" value ="3"  onclick="calculator(this.value)">
+                                        <input type="button" id ="plus" class="btn btn-op" value ="+" onclick="calculator(this.value)">
+                                    </div>
+                                    <div class="form-group">
+                                        <!--5th Row of the calculator-->
+                                        <input type="button" id="zero" class="btn btn-last" value ="0"   onclick="calculator(this.value)" >
+                                        <input type="button" id="equal" class="btn btn-last" value = "=">
+                                    </div>
+                                </div>
+                            </form>                        
+                        </div>
+                        <div class="card-footer">
+                            <h6>&copy; Calculator-2021 : <strong>Bipronath Saha</strong></h6>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+    <!--All JS-->
+    <script src="/src/js/jquery.slim.js"></script>
+    <script src="/src/js/popper.min.js"></script>
+    <script src="/src/js/bootstrap.min.js"></script>
+    <script src="/src/js/index.js"></script>
+</body>
+</html>
+
+
+<!-- Project: Simple Calculator v1.0.0
+Author: Bipronath Saha -->
+
